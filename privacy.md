@@ -50,8 +50,9 @@ system microphone indicator while recording and cannot hide it.
 ## Live captions
 
 Live captions use Apple's on-device speech recognizer (or the iOS 26 SpeechAnalyzer).
-They are shown on screen only, never stored unless you tap "Copy all", and can be turned
-off in Settings → Live captions.
+They are shown on screen only, never stored unless you tap "Copy all", and can be switched
+off on the main screen. Optional translation of captions uses Apple's Translation framework
+on the phone (iOS 18); the language pair is downloaded once by iOS, the text stays local.
 
 ## Data we collect
 
